@@ -1,0 +1,13 @@
+{
+  "name": "new_block_2",
+  "type": "ui-elements",
+  "source": {
+    "https": "https://github.com/nikhilvneoito/new_block_2",
+    "ssh": "git@github.com:nikhilvneoito/new_block_2.git"
+  },
+  "language": "js",
+  "start": "npx webpack-dev-server",
+  "build": "npx webpack",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
